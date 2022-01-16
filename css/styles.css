@@ -1,0 +1,195 @@
+/* div {
+    background-color: #F5EEE6;
+} */
+
+/***************** OVERWRITING DEFAULT VALUES ************************/
+
+body {
+    color: #40514E;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    /* text-align: center; */
+}
+h1 {
+    color: #E6A4B4;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    /* which means that font-size=90px */
+    margin: 50px auto 0 auto;
+    width: 25%;
+}
+h2 {
+    color: #E6A4B4;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 0; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+h3 {
+    color: #C86B85;
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    height: 0px;
+    margin: 50px auto 50px auto;
+    width: 5%;
+    border-color: #cccccc;
+    /* 
+    different way to style the border:
+    border: dotted #cccccc 5px;
+    border-bottom: none;
+      */
+}
+.top-container {
+    background-color: #F5EEE6;
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+    /* height: 200px;
+    width: 200px;
+    padding: 20px; */
+}
+.top-cloud {
+    position: absolute;
+    /* relative to the top-container */
+    right: 400px;   
+    top: 40px;
+    width: 250px;
+}
+.bottom-cloud {
+    position: absolute;
+    /* relative to the top-container */
+    left: 500px;
+    bottom: 500px;
+    width: 250px;
+
+}
+.img-mountain {
+    /* margin-top: 50px; */
+    width: 100%;
+}
+.middle-container {
+    margin: 100px 0;
+}
+.profile-img {
+    width: 200px;
+    margin-top: 50px;
+}
+.mail-to-me-btn {
+    color: #C86B85;
+    text-decoration: none;
+}
+.footer-link {
+    color: #C86B85;
+    text-decoration: none;
+}
+.skill-row {
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+}
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.code-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px; 
+}
+.profile p {
+    display: inline-block;
+    width: 30%;
+    line-height: 2;
+    margin-top: 0;
+}
+.middle-container h2 {
+    font-weight: bold;
+}
+.skills h2 {
+    margin: 100px;
+}
+.skills h3 {
+    font-weight: bold;
+}
+.contact-me h2 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contact-me h2, h3, p{
+    margin-bottom: 50px;
+}
+.contact-me p{
+    line-height: 1;
+    margin: 0 auto 50px auto;
+    width: 40%;
+}
+.bottom-container {
+    background-color: #E6A4B4;
+    padding: 60px 0 60px 0;
+}
+.copyright {
+    color: #F5EEE6;  
+    /* padding-top: 50px auto 60px auto; */
+    font-size: 0.75rem;
+    margin: 0;
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-link {
+    /* padding-right: 40px; */
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 auto 0 auto; 
+    width: 6%;
+    text-decoration: none;
+    /* 
+    different way - instead of using display:
+    margin: 10px(top and bottom) 20px(left and right);
+     */
+} 
+a:hover {
+    color: #F5EEE6;
+}
+.mail-to-me-btn {
+    background: #F3D7CA;
+    background-image: -webkit-linear-gradient(top, #F3D7CA, #E6A4B4);
+    background-image: -moz-linear-gradient(top, #F3D7CA, #E6A4B4);
+    background-image: -ms-linear-gradient(top, #F3D7CA, #E6A4B4);
+    background-image: -o-linear-gradient(top, #F3D7CA, #E6A4B4);
+    background-image: linear-gradient(to bottom, #F3D7CA, #E6A4B4);
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }  
+.mail-to-me-btn:hover {
+    background: #E6A4B4;
+    background-image: -webkit-linear-gradient(top, #E6A4B4, #C86B85);
+    background-image: -moz-linear-gradient(top, #E6A4B4, #C86B85);
+    background-image: -ms-linear-gradient(top, #E6A4B4, #C86B85);
+    background-image: -o-linear-gradient(top, #E6A4B4, #C86B85);
+    background-image: linear-gradient(to bottom, #E6A4B4, #C86B85);
+    text-decoration: none;
+  }
+
+
+
+
+
+
+/* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/312/711/679/firewatch-video-games-mountains-lake-wallpaper-preview.jpg); */
